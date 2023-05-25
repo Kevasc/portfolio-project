@@ -1,64 +1,78 @@
 .heading {
-  background-image: url(flowers2.jpeg);
+  background-image: url(daisy.webp);
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   text-align: center;
-  box-shadow: 2px 2px 7px 1px rgba(255, 51, 153, 0.96);
-  margin: 10px ;
+  margin: 10px;
+  border: 2px solid #e9dadf;
+  box-shadow: 2px 2px 7px 1px rgba(244, 172, 208, 0.96);
   /* opacity: 1; */
-  border-bottom: 2px solid red; 
+
 }
 
 h1 {
   font-size: 90px;
   color: rgb(255, 20, 122);
   text-decoration: wavy;
-  margin: 0
+  margin: 0;
+  
 }
 h2 {
   font-size: 60px;
   font-weight: bolder;
   text-align: center;
-  border: 2px double #d541b0;
+  border: 2px solid #e9dadf;
   margin: auto;
   height: 145px;
   width: 250px;
-
-  color: rgb(113, 7, 78);
-  box-shadow: 2px 2px 7px 1px rgba(255, 51, 153, 0.96);
+  color: rgb(0, 0, 0);
+  background-image: url(daisy.webp);
+  box-shadow: 2px 2px 7px 1px rgba(244, 172, 208, 0.96);
 }
 
 p {
   text-align: center;
   font-family: Georgia, serif;
   font-size: 22px;
-  letter-spacing: 5.8px;
-  word-spacing: 5.8px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
   color: #000000;
 }
 li {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 22px;
-  letter-spacing: 5px;
+  letter-spacing: .5px;
   word-spacing: 3px;
   color: #000000;
   margin: auto;
   border: 1px;
   margin: auto;
   height: fit-content;
-  width: fit-content
+  width: fit-content;
 }
 nav {
   font-family: Georgia, serif;
   font-size: 22px;
-  letter-spacing: 5.8px;
+  letter-spacing: 1px;
+  display: flex;
   color: #282626;
   font-weight: 100;
+  text-align: left;
   text-decoration: underline solid rgb(68, 68, 68);
 }
 
 body {
-  background-color: rgb(237, 194, 220);
+  background-color: rgb(250, 245, 248);
+}
+
+footer {
+  text-align: center;
+  margin: 3rem;
+}
+
+.section-container {
+padding: 1rem;
+margin: 1rem;
 }
